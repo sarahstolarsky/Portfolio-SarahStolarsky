@@ -63,6 +63,23 @@
     padding: 20px;
 }
 
+.project-img {
+    border-radius: 10%;
+}
+
+.btn {
+    background-color: #fce8e9;
+    font-family: 'Karla' , sans-serif;
+    color: var(--primary-color);
+    font-size: 24px;
+    text-decoration: none;
+    width: auto;
+}
+
+:hover .btn{
+    color: var(--primary-color);
+
+}
 
 
 
