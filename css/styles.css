@@ -78,7 +78,27 @@
 
 :hover .btn{
     color: var(--primary-color);
+}
 
+@media (max-width: 900px) {
+    .hero-title {
+        font-size: 96px;
+    }
+    .hero-heading {
+        font-size: 36px;
+    }
+
+    .hero {
+        padding: 0;
+    }
+
+    .featuredProjects {
+        text-align: center;
+    }
+
+    .contactInfo {
+        text-align: center;
+    }
 }
 
 
