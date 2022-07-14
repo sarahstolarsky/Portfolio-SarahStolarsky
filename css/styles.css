@@ -4,9 +4,6 @@
     --secondary-font:'Montserrat' , sans-serif; 
 }
 
-.body {
-    width: 100%;
-}
 .title-text {
     font-family:var(--main-font);
     font-weight: 700;
@@ -113,7 +110,9 @@ nav li.active a {
         text-align: center;
     }
     .nav li {
-        font-size: 12px;
+        font-size: 10px;
+        margin-left: 10px;
+
     }
 }
 
@@ -147,16 +146,12 @@ nav li.active a {
     justify-content: center;
 }
 
-.contactInfo {
-    text-align: center;
-    padding: 20px;
-}
 
-.fa-brands {
+.fab {
     color: var(--primary-color);
 }
 
-.fa-brands:hover {
+.fab:hover {
     color: #ec787e;
     transition: all 100ms ease-in-out;
 }
@@ -168,6 +163,17 @@ nav li.active a {
 .fa-solid:hover {
     color: #ec787e;
     transition: all 100ms ease-in-out;
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+}
+
+
+footer .social-links a{
+     margin: 0 20px;
+     text-decoration: none;
 }
 
 
