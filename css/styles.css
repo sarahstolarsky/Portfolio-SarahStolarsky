@@ -176,7 +176,21 @@ footer .social-links a{
      text-decoration: none;
 }
 
+footer p.bottom{
+    font-family: var(--main-font);
+    color: var(--primary-color);
+    font-size: 14px;
+}
 
+.open-source {
+    text-decoration: none; 
+    color: var(--primary-color);
+
+}
+
+.open-source:hover{
+    color: #ec787e;
+}
 
 
 
